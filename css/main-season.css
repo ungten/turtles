@@ -1,0 +1,200 @@
+body {
+  background: black;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+
+.btn {
+  background: none;
+  border: 1px solid white;
+  border-radius: 24px;
+  color: white;
+  padding: 14px 40px;
+  display: flex;
+  align-items: center;
+}
+.btn img {
+  margin-right: 8px;
+}
+
+.btn-white {
+  background: white;
+  color: black;
+}
+
+.btn-circle {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background: #6C6E26;
+}
+.btn-circle span {
+  display: block;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px auto;
+  color: white;
+}
+
+.global-btn {
+  background: linear-gradient(90deg, #6C6E26 0%, #A29E4E 58.75%, #F0E488 100%);
+  padding: 14px 40px;
+  border-radius: 30px;
+  display: block;
+  margin: 0px auto;
+}
+.global-btn .global-btn__link {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.section__title {
+  font-family: Oswald;
+  font-size: 144px;
+  font-weight: 700;
+  line-height: 173px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: white;
+}
+.section__title span {
+  background: linear-gradient(180deg, #FFF496 17.34%, #EAB359 91.62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.line {
+  width: 92px;
+  height: 11px;
+  background: white;
+}
+
+.top-nav {
+  max-width: 1440px;
+  margin: 0px auto;
+  margin-top: 62px;
+  margin-bottom: 66px;
+}
+.top-nav .menu li .menu__link {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #D2D3D8;
+  text-transform: uppercase;
+}
+.top-nav .menu li .menu__link:hover {
+  color: white;
+}
+
+.header .header__inner {
+  position: relative;
+}
+.header .header__inner .header__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.header .header__inner .header__text .header__text-descr {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0.24em;
+  text-align: left;
+  color: #EAB359;
+}
+.header .header__inner .header__text .header__text-descr span {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #D2D3D8;
+}
+.header .header__inner .btn-circle {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, 60%);
+  z-index: 1;
+}
+.header .header-picture {
+  width: 100%;
+  height: 483px;
+  background: url(/images/season-banner.png) center center/cover no-repeat;
+}
+
+.member-list__inner {
+  margin-top: 140px;
+}
+.member-list__inner .member-container .container__item {
+  margin-bottom: 85px;
+}
+.member-list__inner .member-container .container__item .item__name {
+  margin-bottom: 25px;
+}
+.member-list__inner .member-container .container__item .item__name .item__title {
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  color: white;
+}
+.member-list__inner .member-container .container__item .container__item-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.footer__inner {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.footer__inner img {
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 40px;
+}
+.footer__inner .footer-menu {
+  display: flex;
+  justify-content: center;
+}
+.footer__inner .footer-menu .menu__item {
+  margin-right: 35px;
+}
+.footer__inner .footer-menu .menu__item:last-child {
+  margin-right: 0;
+}
+.footer__inner .footer__descr {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=main-season.css.map */

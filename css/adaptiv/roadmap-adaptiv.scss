@@ -1,0 +1,92 @@
+@media (max-width: 1200px) {
+    .section__title {
+        font-family: Oswald;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 86px;
+        letter-spacing: -0.04em;
+        text-align: left;        
+    }
+    .header {
+        .header__inner {
+            .hero-figure {
+                    top: 50%;
+                    left: 35%;
+                    transform: scale(0.8) translate(-50%, -50%);
+                        }
+        }
+    }
+    .cart {
+        .cart-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 40px;
+        }
+    }
+    .collection {
+        .collection__inner {
+            .collection-container {
+                grid-template-columns: auto auto;
+            }
+        }
+    }
+    .calling__inner {
+        .figure {
+            display: none;
+        }
+        .btn-circle {
+            transform: translate(90%, 80%);
+        }
+    }
+  }
+
+  @media (max-width: 850px) {
+    .calling__inner {
+        .figure {
+            display: none;
+        }
+        .btn-circle {
+            transform: translate(-50%, 110%);
+        }
+        .calling-container {
+            padding-right: 0;
+        }
+    }
+    .roadmap__inner {
+        .series-container {
+            margin: 0px auto;
+            .container__item {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+            }
+        }
+    }
+    
+  }
+  @media (max-width: 600px) {
+    .header__inner {
+        .hero-figure {
+            display: none;
+        }
+    }
+    .btn-circle {
+        display: none;
+    }
+    .calling__inner {
+        .calling-container {
+            .calling-title {
+                font-family: Oswald;
+                font-size: 56px;
+                font-weight: 700;
+                line-height: 67px;
+                letter-spacing: -0.04em;
+                text-align: left;
+                text-transform: uppercase;                
+            }
+        }
+    }
+    .section__title {
+        font-size: 54px;
+    }
+  }

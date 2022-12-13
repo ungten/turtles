@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+  .section__title {
+    font-family: Oswald;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+  .header .header__inner .header__text {
+    flex-direction: column;
+  }
+  .header .header__inner .header__text .section__title-wrapper {
+    margin-bottom: 25px;
+  }
+  .header .header__inner .header__text .header__text-descr {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0.24em;
+    text-align: left;
+  }
+  .header .header__inner .header__text .header__text-descr span {
+    display: block;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .member-list__inner .member-container .container__item .container__item-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .member-list__inner .member-container .container__item .item__name .item__title {
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.06em;
+    text-align: left;
+  }
+  .member-list__inner .member-container .container__item .container__item-list {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: left;
+    gap: 40px;
+  }
+  .section__title {
+    font-family: Oswald;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+}/*# sourceMappingURL=season-adaptiv.css.map */

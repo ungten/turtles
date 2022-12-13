@@ -1,0 +1,49 @@
+@media (max-width: 1200px) {
+    .section__title {
+        font-family: Oswald;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 86px;
+        letter-spacing: -0.04em;
+        text-align: left;        
+    }
+    .header {
+        .header__inner {
+            .hero-figure {
+                transform: scale(0.8) translate(-62%, -64%);
+                        }
+        }
+    }
+    .cart__inner {
+        .cart-container {
+            grid-template-columns: auto;
+            .container__item {
+                .item-profile {
+                    display: grid;
+                grid-template-columns: auto;
+                justify-content: center;
+                }
+                .item__descr {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    
+  }
+
+  @media (max-width: 850px) {
+    .header {
+        .header__inner {
+            .hero-figure {
+                transform: scale(0.4) translate(-120%, -140%);
+                        }
+        }
+    }
+  }
+  @media (max-width: 600px) {
+    
+    .section__title {
+        font-size: 54px;
+    }
+  }

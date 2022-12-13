@@ -1,0 +1,109 @@
+@media (max-width: 1200px) {
+    .section__title {
+        font-family: Oswald;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 86px;
+        letter-spacing: -0.04em;
+        text-align: left;        
+    }
+    .header {
+        .header__inner {
+            .hero-figure {
+                transform: scale(0.5) translate(-100%, 70%);
+                        }
+        }
+    }
+    .cart {
+        .cart-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 40px;
+        }
+    }
+    .collection {
+        .collection__inner {
+            .collection-container {
+                grid-template-columns: auto auto;
+            }
+        }
+    }
+    .calling__inner {
+        .figure {
+            display: none;
+        }
+        .btn-circle {
+            transform: translate(90%, 80%);
+        }
+    }
+  }
+
+  @media (max-width: 850px) {
+    .header {
+        .header__inner {
+            .hero-figure {
+                transform: scale(0.4) translate(-120%, 90%);
+                        }
+        }
+    }
+    .cart {
+        .cart-container {
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            gap: 40px;
+        }
+    }
+    .calling__inner {
+        .figure {
+            display: none;
+        }
+        .btn-circle {
+            transform: translate(-50%, 110%);
+        }
+        .calling-container {
+            padding-right: 0;
+        }
+    }
+  }
+  @media (max-width: 600px) {
+    .header {
+        .header__inner {
+            .hero-figure {
+                transform: scale(0.3) translate(-162%, 70%);
+                        }
+        }
+    }
+    .collection {
+        .collection__inner {
+            .collection-container {
+                grid-template-columns: auto;
+            }
+        }
+    }
+    .calling__inner {
+        .calling-container {
+            
+            .calling-title {
+                font-family: Oswald;
+                font-size: 56px;
+                font-weight: 700;
+                line-height: 67px;
+                letter-spacing: -0.04em;
+                text-align: left;
+                text-transform: uppercase;                
+            }
+        }
+    }
+    .about {
+        .cardano {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 60%);
+        }
+    }
+    .section__title {
+        font-size: 54px;
+    }
+  }
